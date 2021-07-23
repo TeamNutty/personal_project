@@ -1,0 +1,104 @@
+html * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    background-image: url(../icon/login\ \(1\).png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.loginbox {
+    width: 600px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color:#282828;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.300);
+}
+
+
+
+
+.loginbox input {
+    height: 50px;
+    width: 400px;
+    background-color:#282828;
+    border: 2px solid#838383;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    padding-left: 30px;
+}
+
+
+
+.loginbox input:focus {
+    outline: none;
+    color: white;
+    font-size: 18px;
+}
+
+
+
+.loginbox p {
+margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+
+.loginbutton {
+    color: white;
+    background-color:#007BED;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow:5px 5px 10px rgba(0, 0, 0, 0.300);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+.loginbutton:hover {
+    background-color:#006ace;
+}
+
+
+.link {
+    color: white;
+    /* text-decoration: none; */
+}
